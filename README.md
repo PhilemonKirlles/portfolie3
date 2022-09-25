@@ -19,5 +19,10 @@ in command line cd directory (your disktop or the directory where you stor your 
 8- cd pages; touch about.js blog.js contact.js index.js signup.js; (now check the pages directory to confirm the existence of the files you just created)
 *(don't forget to commit)
 
-# create navbar and style code
-9- 
+# create navbar componant 
+(check index.js for details)
+9- in the index.js file:    10-import react 
+11- import {} from ./NavbarElements
+12-const Navbar = function return...
+13- export default Navbar
+
