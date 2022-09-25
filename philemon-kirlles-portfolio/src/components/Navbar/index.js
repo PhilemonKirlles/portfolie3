@@ -1,4 +1,3 @@
-import { Nav, NavLink, NavMenu } from "./NavbarElements";
 
 const Navbar = () => {
   return (
