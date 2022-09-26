@@ -12,6 +12,7 @@ import './about.css'
 const about = () => {
   return (
     <div>
+      About
         {/* <p>
          Philemon Kirlles is a full stack developer, multi-instrumentalist,
          composer and luthier. He studied music at the Cairo Conservatory,
