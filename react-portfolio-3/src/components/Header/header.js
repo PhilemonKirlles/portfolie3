@@ -1,15 +1,17 @@
-import React from 'react'
-import './header.css'
+import React from "react";
+import "./";
 const header = () => {
   return (
-    <div>
-      Header
-    </div>
-  )
-}
+    <header>
+      <div className="Container header_container"></div>
+    <h5>Hi I'm</h5>
+    <h1>Philemon AbdEllah Kirlles</h1>
+    <h5 className="text-light">Fullstack Developer</h5>
+    </header>
+  );
+};
 
-export default header
-
+export default header;
 
 // import React from "react";
 // import Image from "../../assets/photos/NicePng_grid-background-png_1014345.png";
