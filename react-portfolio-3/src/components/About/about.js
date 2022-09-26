@@ -12,7 +12,7 @@ import './about.css'
 const about = () => {
   return (
     <div>
-        <p>
+        {/* <p>
          Philemon Kirlles is a full stack developer, multi-instrumentalist,
          composer and luthier. He studied music at the Cairo Conservatory,
          The Eastern Music Institute, and studied music composition and
@@ -47,7 +47,7 @@ const about = () => {
          https://syriaca.org/project-team.html. As a luthier, Philemon owned
          and operated his own instrument building and repair business, called
          Lizmonia.
-         </p>
+         </p> */}
     </div>
   )
 }
@@ -116,4 +116,4 @@ export default about
 //   );
 // };
 
-export default About;
+// export default About;

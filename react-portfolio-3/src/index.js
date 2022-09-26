@@ -1,4 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 
-ReactDOM.render(<app/>, document.querySelector("#root"));
+
+ReactDOM.render(<App/>, document.querySelector("#root"));
+
+

@@ -1,7 +1,19 @@
-import React from "react";
 // import Row from "react-bootstrap/Row";
-import Nav from "react-bootstrap/Nav";
+// import Nav from "react-bootstrap/Nav";
+
+
+import React from 'react'
 import './footer.css'
+const footer = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default footer
+
 
 // function Footer() {
 //     return (
@@ -18,5 +30,5 @@ import './footer.css'
 //         </footer>
 //  )
 // }
-export default Footer;
+// export default Footer;
 
