@@ -75,6 +75,7 @@ const About = () => {
          and operated his own instrument building and repair business, called
          Lizmonia.
          </p> 
+         <a href="#contact" className= 'btn btn-primary'>Let's Chat</a>
         </div>
       </div>
 
