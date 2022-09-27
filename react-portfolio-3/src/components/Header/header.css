@@ -25,9 +25,10 @@ justify-content: center;
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     bottom: 3rem;
+    top: 2rem;
 
 }
 .header_socials::after{
@@ -39,7 +40,7 @@ justify-content: center;
 
 /* image */
 .myImage {
-    background: linear-gradient (var(--color-primary), transparent;
+    background: linear-gradient (var(--color-primary), transparent);
     width: 22rem;
     height: 30rem;
     position: absolute;
@@ -54,8 +55,27 @@ justify-content: center;
     position: absolute;
     right: -2.3rem;
     bottom: 5rem;
-    transform: rotate(90deg);
+    transform: rotate(90);
     font-weight: 300;
     font-size: 0.9rem;
 
+}
+
+/* ===medium devices===*/
+@media screen and (max-width: 1024px) {
+    header{
+        height:68vh;
+    } 
+   
+}
+
+
+/* ===small devices====== */
+@media screen and (max-width: 600px) {
+    header{
+        height:100vh;
+    } 
+    .header_socials,.scroll-down{
+        display: none;
+    }
 }

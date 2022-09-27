@@ -1,15 +1,15 @@
 import React from 'react'
-import './projects.css'
+import './portfolio.css'
 
-const projects = () => {
+const Portfolio = () => {
     return (
-        <div>
-           Projects 
-        </div>
+        <section >
+           Portfolio
+        </section>
     )
 }
 
-export default projects
+export default Portfolio
 
 
 // import React from "react";

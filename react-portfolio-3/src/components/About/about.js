@@ -11,7 +11,7 @@ import './about.css'
 
 const about = () => {
   return (
-    <div>
+    <section id='about'>
       About
         {/* <p>
          Philemon Kirlles is a full stack developer, multi-instrumentalist,
@@ -49,7 +49,7 @@ const about = () => {
          and operated his own instrument building and repair business, called
          Lizmonia.
          </p> */}
-    </div>
+    </section>
   )
 }
 

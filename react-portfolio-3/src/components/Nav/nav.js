@@ -1,72 +1,24 @@
-import React from 'react'
+import React from 'react';
+
+import {IoIosHome} from 'react-icons/io';
+import {HiIdentification} from 'react-icons/hi';
+import {HiChatAlt2} from 'react-icons/hi';
+ import{BiLibrary} from 'react-icons/bi';
+
 import './nav.css'
-const nav = () => {
+const Nav = () => {
   return (
-    <div>
-      Navbar
-    </div>
+    <nav>
+<a href='#'><IoIosHome/></a>
+<a href='#about'><HiIdentification/></a>
+<a href='#contact'><HiChatAlt2/></a>
+<a href='#portfolio'><BiLibrary/></a>
+    </nav>
   )
 }
 
-export default nav
+export default Nav
 
 
 
-// import React, { useEffect } from 'react';
-// import Container from "react-bootstrap/Container";
-// import Navbar from "react-bootstrap/Navbar";
-// import Nav from "react-bootstrap/Nav";
-// import "./style.css";
 
-// function TopNav({ activeTab, changeActiveTab }) {
-
-  
-// useEffect(() => {
-//   document.title = (activeTab);
-// });
-
-//   return (
-//     <Container id="NavContainer" className="NavContainer">
-//       <Navbar className="navBar" expand="lg">
-//         <Navbar.Brand
-//           className="NavBrand"
-//           onClick={() => changeActiveTab("About")}
-//           href="#about"
-//         >
-//           My Portfolio
-//         </Navbar.Brand>
-//         <Navbar.Toggle
-//           className="navToggle navBtn"
-//           aria-controls="basic-navbar-nav"
-//         />
-//         <Navbar.Collapse className="navToggle" id="basic-navbar-nav">
-//           <Nav className="me-auto navLinks">
-//             <Nav.Link
-//               onClick={() => changeActiveTab("About")}
-//               href="#about"
-//               className={activeTab === "About" ? "active-tab" : "not-active"}
-//             >
-//               About
-//             </Nav.Link>
-//             <Nav.Link
-//               onClick={() => changeActiveTab("Projects")}
-//               href="#projects"
-//               className={activeTab === "Projects" ? "active-tab" : "not-active"}
-//             >
-//               My Projects
-//             </Nav.Link>
-//             <Nav.Link
-//               onClick={() => changeActiveTab("Contact")}
-//               href="#contact"
-//               className={activeTab === "Contact" ? "active-tab" : "not-active"}
-//             >
-//               Contact Me
-//             </Nav.Link>
-//           </Nav>
-//         </Navbar.Collapse>
-//       </Navbar>
-//     </Container>
-//   );
-// }
-
-// export default TopNav;

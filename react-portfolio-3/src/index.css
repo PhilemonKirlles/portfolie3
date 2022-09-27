@@ -13,12 +13,12 @@
 }
 
 :root {
-    --color-bg: #f9f9fe;
-    --color-bg-var: #2c2c6c;
-    --color-primary: #4dffc466;
-    --color-primary: #4db5ff66;
-    --color-white: #141447;
-    --color-light: #b61b1b;
+    --color-bg: #5151a6;
+    --color-bg-var: #241e5d;
+    --color-primary: #4dffc49c;
+    --color-primary-var: #4db5ffae;
+    --color-white: rgb(251, 245, 123);
+    --color-light: #eae4bec4;
 
     --transition: all 400ms ease;
 
@@ -40,7 +40,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    /* background-image: url(../src/assets/oriental-tiles.png); */
+    background-image: url(../src/assets/images/black-linen.png)
 }
 
 /* =============main style=====  */
@@ -55,7 +55,7 @@ h2,
 h3,
 h4,
 h5 {
-    font-weight: 500;
+    font-weight: 300;
 }
 
 
@@ -63,8 +63,10 @@ h1 {
     font-size: 2.5rem;
 }
 
+
 section {
-    margin-top: 8rem
+    margin-top: 8rem;
+    height: 100vh;
 }
 
 section>h2,
@@ -93,17 +95,17 @@ a:hover {
 }
 
 .btn {
-    width: max-content var(--color-primary);
+    width: max-content var(--color-primary-);
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-primary-var);
     transition: var(--transition);
 }
 
 .btn:hover {
     background: var(--color-white);
-    color: var(--color-bg);
+    color: var(--color-bg-var);
     border-color: transparent;
 }
 
