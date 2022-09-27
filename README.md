@@ -26,3 +26,13 @@ in command line cd directory (your disktop or the directory where you stor your 
 12-const Navbar = function return...
 13- export default Navbar
 
+
+
+
+
+### sources:
+1- https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/65be35b0f6c6cf8b79e9a748cb657a64b78c6535/docs/rules/anchor-is-valid.md
+2-https://www.youtube.com/watch?v=G-Cr00UYokU&ab_channel=EGATOR
+3-
+4-
+
