@@ -13,12 +13,12 @@
 }
 
 :root {
-    --color-bg: #f0f0d7;
+    --color-bg: #f9f9fe;
     --color-bg-var: #2c2c6c;
     --color-primary: #4dffc466;
     --color-primary: #4db5ff66;
-    --color-white: #fcfcf1;
-    --color-light: #ffffff99;
+    --color-white: #141447;
+    --color-light: #b61b1b;
 
     --transition: all 400ms ease;
 
@@ -40,7 +40,7 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/oriental-tiles.png);
+    /* background-image: url(../src/assets/oriental-tiles.png); */
 }
 
 /* =============main style=====  */

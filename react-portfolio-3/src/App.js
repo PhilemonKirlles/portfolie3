@@ -1,14 +1,13 @@
 import React from 'react';
-import { ReactDOM } from 'react';
+import { ReactDOM } from 'react-dom';
 
-import Header from './components/Header/header';
-import Nav from './components/Nav/nav';
-import About from'./components/About/about';
-import Projects from './components/Projects/projects';
-import Contect from './components/Contact/contact'
-import Footer from './components/Footer/footer';
+import Header from './components/Header/Header';
+import Nav from './components/Nav/Nav';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Contect from './components/Contact/Contact'
+import Footer from './components/Footer/Footer';
 import './index.css'
-
 
 
 

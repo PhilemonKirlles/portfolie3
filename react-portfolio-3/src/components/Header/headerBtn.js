@@ -2,13 +2,13 @@ import React from 'react';
 import Resume from '../../assets/documents/Philemon-Abdellah.pdf';
 
 
-const headerBtn = () => {
+const HeaderBtn = () => {
   return (
     <div className='headerBtn'>
-      <a href={Resume} >Resume</a>
-      <a href='#contact'>Let's Chat</a>
+      <a href= {Resume} download className='btn'>Resume</a>
+      <a href='#contact' className='btn btn-primary'>Let's Chat</a>
     </div>
   )
 }
 
-export default headerBtn
+export default HeaderBtn
