@@ -25,17 +25,17 @@ const About = () => {
         <div className="about_content">
           <div className="about_cards">
             <article className='about_card'>
-              <GiSkills className='Skills_card-icon'/>
+              <GiSkills className='about_card-icons'/>
               <h5>Skills</h5>
             </article> 
 
             <article className='about_card'>
-              <RiProjectorFill className='portfolio_card-icon'/>
+              <RiProjectorFill className='about_card-icons'/>
               <h5>Portfolio</h5>
             </article> 
 
             <article className='about_card'>
-              <MdMore className='bio_card-icon'/>
+              <MdMore className='about_card-icons'/>
               <h5>Bio</h5>
             </article> 
           </div>
