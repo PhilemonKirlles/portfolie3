@@ -54,10 +54,7 @@
     font-size: 0.9
     rem;
 }
-.about_card small {
-    font-size: 0.7rem;
-    color: var(--color-light)
-}
+
 .about_content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);

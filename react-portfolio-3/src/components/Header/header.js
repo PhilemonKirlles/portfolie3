@@ -1,9 +1,7 @@
 import React from "react";
 import "./header.css";
 import HeaderBtn from './HeaderBtn';
-import MyImage from "../../assets/images/profile-pic.png";
 import HeaderSocials from "./HeaderSocials";
-
 
 const Header = () => {
   return (
@@ -14,11 +12,6 @@ const Header = () => {
     <h5 className="text-light">Fullstack Developer</h5>
     <HeaderBtn />
      <HeaderSocials/>
-
-    <div className="myImage">
-      <imag src={MyImage} alt="Developer's Profile Image"/> 
-    </div>
-    <a href="#contact" className="scroll_down"> Scroll Down</a>
     </div>
     </header>
   );

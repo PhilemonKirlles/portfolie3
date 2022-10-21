@@ -6,9 +6,9 @@
  const HeaderSocials = () => {
    return (
      <div className='header_socials'>
-        <a target="_blank" rel="noopener noreferrer" href='https://github.com'> <ImGithub /> </a>
-        <a target="_blank" rel="noopener noreferrer" href='https://linkedin.com'> <RiLinkedinBoxLine /> </a>
-        <a target="_blank" rel="noopener noreferrer" href='https://twitter.com'> <FaTwitterSquare /> </a>
+        <a target="_blank" rel="noopener noreferrer" href='https://github.com'> <ImGithub/></a>
+        <a target="_blank" rel="noopener noreferrer" href='https://linkedin.com'> <RiLinkedinBoxLine/> </a>
+        <a target="_blank" rel="noopener noreferrer" href='https://twitter.com'> <FaTwitterSquare/> </a>
      </div>
    )
  }
