@@ -2,10 +2,6 @@
 import React from "react";
 import './about.css';
 import myImage from '../../assets/images/about-pic.jpeg';
-// import Container from "react-bootstrap/Container";
-// import Row from "react-bootstrap/Row";
-// import Col from "react-bootstrap/Col";
-// import Card from "react-bootstrap/Card";
 import {GiSkills} from  'react-icons/gi';
 import{RiProjectorFill} from 'react-icons/ri';
 import {MdMore} from 'react-icons/md'
@@ -14,7 +10,6 @@ import Skills from './Skills'
 const About = () => {
   return (
     <section id='about'>
-
       <div className='container about_container '>
         <div className='about_me'>
           <div className=" about_me-image">
@@ -26,7 +21,7 @@ const About = () => {
           <div className="about_cards ">
             <article className='about_card '>
               <GiSkills className='about_card-icons'/>
-              <h5>Skills</h5>
+              <Skills className='about_card-skills'/>
             </article> 
 
             <article className='about_card '>

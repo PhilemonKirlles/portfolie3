@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../../assets/documents/Philemon-Abdellah.pdf';
+import Resume from '../../assets/documents/devMusResume (1).pdf';
 
 
 const HeaderBtn = () => {

@@ -5,7 +5,7 @@ import Header from './components/Header/Header';
 import About from './components/About/About';
 
 import Portfolio from './components/Portfolio/Portfolio';
-import Contect from './components/Contact/Contact'
+import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer';
 import './index.css'
 
@@ -19,7 +19,7 @@ const App = () => {
         <Header/>
         <About/>
         <Portfolio/>
-        <Contect/>
+        <Contact/>
         <Footer/>
         </>
         
