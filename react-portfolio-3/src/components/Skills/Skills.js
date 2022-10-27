@@ -1,5 +1,6 @@
 import React from 'react';
 import './skills.css';
+import {GiSkills} from  'react-icons/gi';
 
 import {IoLogoHtml5} from 'react-icons/io';
 import {IoLogoCss3} from 'react-icons/io';
@@ -18,9 +19,12 @@ import {SiGraphql} from 'react-icons/si';
 const Skills = () => {
   return (
     <section id='skills'>
-      <h5>Skills </h5>
 
       <div className='skills skills_container'>
+      <article className='about_card '>
+      <h5>Skills</h5>
+              <GiSkills className='about_card-icons'/>
+              </article> 
         <div className='skills_frontend'>
         
          <h3>Frontend Development</h3>

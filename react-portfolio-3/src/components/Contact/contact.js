@@ -1,16 +1,51 @@
 
 import React from 'react'
 import './contact.css'
-
-const contact = () => {
+import {AiTwotoneMail} from 'react-icons/ai'
+import {AiOutlinePhone} from 'react-icons/ai'
+import {CgVoicemailR} from 'react-icons/cg'
+import {FaFacebookMessenger} from 'react-icons/fa'
+const Contact = () => {
   return (
     <section id='contact'>
-      Contact
-    </section>
-  )
-}
+    <h4>Get In Touch</h4>
+    <h2>Contact Me</h2>
+    <div className='container contact_container'>
+      <div className='contact_options'></div>
+        <article className='contact_option'>
+        <AiOutlinePhone className='contact_option-icon'/> <CgVoicemailR className='contact_option-icon'/>
+        <h4>Voice Call</h4>
+        <h5>+1(860)358-0164</h5>
+        </article>
 
-export default contact
+        <article className='contact_option'>
+        <AiTwotoneMail className='contact_option-icon'/>
+        <h4> Email</h4>
+        <h5>pmopk37@gmail.com</h5>
+        <a href='mailto:pmopk37@gmail.com' target="_blank">Send a Message</a>
+        </article>
+  
+        <article className='contact_option'>
+        <FaFacebookMessenger className='contact_option-icon'/>
+        <h4>Messenger</h4>
+        <h5>philemon.abdellahkirlles</h5>
+        <a href='https://m.me/philemon.abdellahkirlles' target="_blank">Send a Message</a>
+        </article>
+      </div>  
+
+      {/* form */}
+      <form action=''>
+        <input type="text" name='name' placeholder= 'philemon AbdEllah Kirlles' required/>
+        <input type="email" name='email' placeholder= 'pmopk37@gmail.com' required/>
+        <textarea name='message' rows="7" placeholder= 'Your Message' required></textarea>
+        <button type="submit" className='btn btn-primary'>Send Message</button>
+
+      </form>
+    </section> 
+    )}
+
+
+export default Contact
 
 
 // import { validateEmail } from "../../assets/utils/helpers";
