@@ -54,4 +54,19 @@ border-radius:0.5rem ;
 background: var(--color-light-white);
 border: 2px solid var(--color-primary-variant) ;
 resize: none;
+color: var(--color-light-white);
+}
+/* media queries */
+/* medium */
+@media screen and (min-width: 1024px){
+   .container.contact_container {
+    grid-template: 1fr;
+    gap: 2rem;
+   }
+}
+/* small */
+@media screen and (min-width: 600px){
+.container.contact_container{
+    width: var(--container-width-sm);
+}    
 }

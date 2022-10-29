@@ -5,7 +5,21 @@ import {AiTwotoneMail} from 'react-icons/ai'
 import {AiOutlinePhone} from 'react-icons/ai'
 import {CgVoicemailR} from 'react-icons/cg'
 import {FaFacebookMessenger} from 'react-icons/fa'
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser'
 const Contact = () => {
+  const form = useRef();
+    const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_kdwrz0h', 'template_ruxtc9m', form.current, 'FxlpXJ6uO5MKO2aId')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
   return (
     <section id='contact'>
     <h4>Get In Touch</h4>
@@ -22,19 +36,19 @@ const Contact = () => {
         <AiTwotoneMail className='contact_option-icon'/>
         <h4> Email</h4>
         <h5>pmopk37@gmail.com</h5>
-        <a href='mailto:pmopk37@gmail.com' target="_blank">Send a Message</a>
+        <a href='mailto:pmopk37@gmail.com' target="_blank" rel='noreferrer'>Send a Message</a>
         </article>
   
         <article className='contact_option'>
         <FaFacebookMessenger className='contact_option-icon'/>
         <h4>Messenger</h4>
         <h5>philemon.abdellahkirlles</h5>
-        <a href='https://m.me/philemon.abdellahkirlles' target="_blank">Send a Message</a>
+        <a href='https://m.me/philemon.abdellahkirlles' target="_blank" rel='noreferrer'>Send a Message</a>
         </article>
       </div>  
 
       {/* form */}
-      <form action=''>
+      <form ref={form} onSubmit={sendEmail}>
         <input type="text" name='name' placeholder= 'philemon AbdEllah Kirlles' required/>
         <input type="email" name='email' placeholder= 'pmopk37@gmail.com' required/>
         <textarea name='message' rows="7" placeholder= 'Your Message' required></textarea>
