@@ -1,14 +1,37 @@
-// import Row from "react-bootstrap/Row";
-// import Nav from "react-bootstrap/Nav";
-
-
 import React from 'react'
+
+import {ImGithub} from 'react-icons/im';
+import {RiLinkedinBoxLine} from 'react-icons/ri';
+import {FaTwitterSquare} from 'react-icons/fa';
+
+import {IoIosHome} from 'react-icons/io';
+import {HiIdentification} from 'react-icons/hi';
+import {HiChatAlt2} from 'react-icons/hi';
+import{BiLibrary} from 'react-icons/bi';
+
 import './footer.css'
 const footer = () => {
   return (
-    <div>
-      Footer
-    </div>
+    <footer>
+      <a href="#footer" className='footer_logo'>PAK</a>
+      <ul className='quickLinks'>
+      <li><a href='#home'><IoIosHome/></a></li>
+      <li><a href='#about'><HiIdentification/></a></li>
+      <li><a href='#contact'><HiChatAlt2/></a></li>
+      <li><a href='#portfolio'><BiLibrary/></a></li>
+      </ul>
+      <div className='footer_socials'>
+        <a target="_blank" rel="noopener noreferrer" href='https://github.com'> <ImGithub/></a>
+        <a target="_blank" rel="noopener noreferrer" href='https://linkedin.com'> <RiLinkedinBoxLine/> </a>
+        <a target="_blank" rel="noopener noreferrer" href='https://twitter.com'> <FaTwitterSquare/> </a>
+     </div>
+
+     <div className="footer_copyright">
+     <small> &copy; CatFishChisel.PAK 2022. All rights reserved.
+     </small>
+     </div>
+
+    </footer>
   )
 }
 
