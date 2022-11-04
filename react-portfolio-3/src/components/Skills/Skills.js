@@ -19,51 +19,48 @@ import {SiGraphql} from 'react-icons/si';
 const Skills = () => {
   return (
     <section id='skills'>
-
-      <div className='skills skills_container'>
-      <article className='about_card '>
-      <h5>Skills</h5>
-              <GiSkills className='about_card-icons'/>
-              </article> 
-        <div className='skills_frontend'>
+      <div className='container skills_container'>
         
+        <h5>Skills</h5>
+        <GiSkills className='skills_container-icons'/>
+
+        <div className='skills_frontend'>
          <h3>Frontend Development</h3>
             <div className='skills_content'>
 
-            <article className='skills_details'>
-              <div>
-                <IoLogoHtml5/>
-                <h4>HTML</h4>
+              <article className='skills_details'>
+                  <IoLogoHtml5/>
+                  <h4>HTML</h4>
+              </article>
+
+              <article className='skills_details'>
+               <IoLogoCss3/>
+               <h4>CSS</h4>
+              </article>
+
+              <article className='skills_details'>
+                <IoLogoJavascript/>
+                <h4>Java Script</h4>
+              </article>
+
+              <article className='skills_details'>
+                <SiBootstrap/>
+                <h4>Bootstrap</h4>
+              </article>
+
+              <article className='skills_details'>
+                <SiReact/>
+                <h4>React</h4>
+              </article>
+
               </div>
-            </article>
-
-            <article className='skills_details'>
-             <IoLogoCss3/>
-              <h4>CSS</h4>
-            </article>
-
-            <article className='skills_details'>
-              <IoLogoJavascript/>
-              <h4>Java Script</h4>
-            </article>
-
-            <article className='skills_details'>
-              <SiBootstrap/>
-              <h4>Bootstrap</h4>
-            </article>
-
-            <article className='skills_details'>
-              <SiReact/>
-              <h4>React</h4>
-            </article>
-
-            </div>
           </div>
         
 
         <div className='skills_backend'>
         <h3>Backend Development</h3>
-            <div className='skills_content'>
+          <div className='skills_content'>
+
             <article className='skills_details'>
               <IoLogoNodejs/>
               <h4>Node</h4>
@@ -89,8 +86,9 @@ const Skills = () => {
               <h4>GraphQL</h4>
             </article>
 
-        </div>
+          </div>
       </div>
+
        </div>
       </section>
   )

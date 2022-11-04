@@ -1,25 +1,36 @@
 header {
     height: 100vh;
-    padding-top: 10rem;
+    padding-top: 8rem;
     overflow: hidden;
 
 }
 
 .header_container {
+    flex-flow: column nowrap;
+    justify-content:center;
     text-align: left;
-    height: 100%;
+    height:fit-content;
     position: relative;
-    left: 20%;
+    left: 10%;
+    bottom:2rem;
+}
+
+.header_intro {
+    margin-top: 6%;
+    color: var(--color-white);
+    align-items: center;
+    max-width: 65%;
+
 }
 
 .headerBtn {
     margin-top: 2rem;
-    display: flex;
     gap: 1.5rem;
     justify-content: left;
     margin-bottom: 1.5rem;
 
 }
+
 /* social icons */
 
 .header_socials {
@@ -27,20 +38,23 @@ header {
     flex-direction: column;
     align-items: left;
     gap: 0.8rem;
-    /* position: absolute; */
-    left: 34%;
-    bottom: 3rem;
+    bottom: 1rem;
 
 }
-.header_socials::after{
+
+.header_socials::after {
     content: "";
     width: 1px;
     height: 1.5rem;
     background: var(--color-primary);
+
+
 }
 
+
+
 /* image */
-/* .header-image {
+.header-image {
     background: linear-gradient (var(--color-primary), transparent);
     width: 18rem;
     height: 28rem;
@@ -50,7 +64,7 @@ header {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 1.5rem 3.5rem 1.5rem 5rem;
-}  */
+} 
 
 
 
@@ -65,21 +79,24 @@ header {
 
 }
 
+
 /* ===medium devices===*/
-@media screen and (max-width: 1024px) {
-    header{
-        height:68vh;
-    } 
-   
+@media screen and (max-width: 768px) {
+    header {
+        height: 68vh;
+    }
+
 }
 
 
 /* ===small devices====== */
-@media screen and (max-width: 600px) {
-    header{
-        height:100vh;
-    } 
-    .header_socials,.scroll-down{
+@media screen and (max-width: 320px) {
+    header {
+        height: 100vh;
+    }
+
+    .header_socials,
+    .scroll-down {
         display: none;
     }
 }

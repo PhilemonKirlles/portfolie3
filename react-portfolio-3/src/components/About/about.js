@@ -4,27 +4,21 @@ import './about.css';
 import myImage from '../../assets/images/about-pic.jpg';
 import{RiProjectorFill} from 'react-icons/ri';
 import {MdMore} from 'react-icons/md'
-import Portfolio from '../Portfolio/Portfolio'
+// import Portfolio from '../Portfolio/Portfolio'
  
 const About = () => {
   return (
     <section id='about'>
       <div className='container about_container '>
         <div className='about_me'>
-          <div className=" about_me-image">
+          <div className="about_me-image">
             <img src= {myImage} alt='Profile of Philemon Kirlles, Develeoper'></img>
           </div>
         </div>
         <div className="about_content">
           <div className="about_cards ">
 
-            <article className='about_card '>
-              <RiProjectorFill className='about_card-icons'/>
-              <h5>Portfolio</h5>
-              <Portfolio className='about_card-portfolio'/>
-            </article> 
-
-            <article className='about_card '>
+            <article className='about_card'>
               <MdMore className='about_card-icons'/>
               <h5>Bio</h5>
               <p> 

@@ -1,16 +1,21 @@
 .skills_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2 rem;
+display: inline-flex;
+flex-basis: 1;
+flex-wrap: wrap;
+gap: 2rem;
+
 }
 
 .skills_container > div {
-    background: var(--color-bg-var);
-    padding: 2.4rm 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
+  display: flex;
+  flex-wrap: wrap;
+  background: var(--color-bg-var);
+    padding: 1.4rm 1rem;
+    border-radius: 1rem;
+    border: 1px solid ;
     transition: var(--transition);
-}
+  }
+
 .skills_container > div:hover {
     background: transparent ;
      border-color: var(--color-primary-var);
@@ -18,8 +23,7 @@
 
 }
 .skills_container > div h4 {
-    text-align: center;
-    margin-top: 2rem;
+    text-align: left;
     color: var(--color-primary); 
 }
 
@@ -27,6 +31,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
+    column-gap: 2rem;
 
 }
 .skills_details {
@@ -38,7 +43,7 @@
     color: var(--color-primary);
 }
 /* ===medium devices===*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .skills_container{
     grid-template-columns: 1fr;
   }
@@ -54,7 +59,7 @@
 }
   
    /*===small devices====== */
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 320px) {
    .experience_container {
     gap: 1rem;
    }
